@@ -8,6 +8,7 @@
 package frc.team2606.robot.subsystems;
 
 public class Intake extends Subsystem {
+  private static Intake instance;
 
   public synchronized static Intake getInstance() {
     if (instance == null) {
